@@ -1,0 +1,41 @@
+=== Step 1: Patching Fish Codex Tables in game12 ===
+  Modified 27 species in fish_codex_achelous.csvc
+Creating backup: game12.tab.bak
+Creating backup: game12.arc.bak
+  [OK] Patched game12.tab: size_c 3746 -> 3043
+  Modified 18 species in fish_codex_alpheus.csvc
+Backup exists: game12.tab.bak
+Backup exists: game12.arc.bak
+  [OK] Patched game12.tab: size_c 2408 -> 2055
+  Modified 17 species in fish_codex_belisama.csvc
+Backup exists: game12.tab.bak
+Backup exists: game12.arc.bak
+  [OK] Patched game12.tab: size_c 2173 -> 1767
+  Modified 16 species in fish_codex_ceto.csvc
+Backup exists: game12.tab.bak
+Backup exists: game12.arc.bak
+  [OK] Patched game12.tab: size_c 2162 -> 1791
+  Modified 19 species in fish_codex_doris.csvc
+Backup exists: game12.tab.bak
+Backup exists: game12.arc.bak
+  [OK] Patched game12.tab: size_c 2703 -> 2195
+
+=== Step 2: Patching Reserve global_trufish.blo_adf ===
+  Found TruFish struct in achelous at 0x538
+Creating backup: game16.tab.bak
+Creating backup: game16.arc.bak
+  [OK] Patched game16.tab: size_c 5908 -> 5478
+  Found TruFish struct in alpheus at 0x1ad8
+Creating backup: game20.tab.bak
+Creating backup: game20.arc.bak
+  [OK] Patched game20.tab: size_c 4885 -> 4475
+  Found TruFish struct in belisama at 0xc00
+Creating backup: game24.tab.bak
+Creating backup: game24.arc.bak
+  [OK] Patched game24.tab: size_c 4800 -> 4492
+  Found TruFish struct in ceto at 0x6f8
+Creating backup: game28.tab.bak
+Creating backup: game28.arc.bak
+  [OK] Patched game28.tab: size_c 6882 -> 6385
+
+All archives patched! Launch the game and test!
